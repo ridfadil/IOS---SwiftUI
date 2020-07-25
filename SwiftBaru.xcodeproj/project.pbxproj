@@ -7,14 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		BDF8B0DD24CA63540017ADBA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDF8B0DC24CA63540017ADBA /* AppDelegate.swift */; };
+		BDBFEBE424CB305400B0C004 /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDBFEBE324CB305400B0C004 /* CircleImage.swift */; };
+		BDBFEBE624CB32C100B0C004 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDBFEBE524CB32C100B0C004 /* MapView.swift */; };
+		BDBFEBE924CBAB5D00B0C004 /* Landmark.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDBFEBE824CBAB5D00B0C004 /* Landmark.swift */; };
 		BDF8B0DF24CA63550017ADBA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDF8B0DE24CA63550017ADBA /* SceneDelegate.swift */; };
-		BDF8B0E124CA63550017ADBA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDF8B0E024CA63550017ADBA /* ContentView.swift */; };
 		BDF8B0E324CA63570017ADBA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BDF8B0E224CA63570017ADBA /* Assets.xcassets */; };
 		BDF8B0E624CA63570017ADBA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BDF8B0E524CA63570017ADBA /* Preview Assets.xcassets */; };
 		BDF8B0E924CA63570017ADBA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BDF8B0E724CA63570017ADBA /* LaunchScreen.storyboard */; };
 		BDF8B0F424CA63570017ADBA /* SwiftBaruTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDF8B0F324CA63570017ADBA /* SwiftBaruTests.swift */; };
 		BDF8B0FF24CA63570017ADBA /* SwiftBaruUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDF8B0FE24CA63570017ADBA /* SwiftBaruUITests.swift */; };
+		BDF8B10D24CA650F0017ADBA /* SwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDF8B10C24CA650F0017ADBA /* SwiftUIView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,10 +37,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		BDBFEBE324CB305400B0C004 /* CircleImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImage.swift; sourceTree = "<group>"; };
+		BDBFEBE524CB32C100B0C004 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		BDBFEBE824CBAB5D00B0C004 /* Landmark.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Landmark.swift; sourceTree = "<group>"; };
 		BDF8B0D924CA63540017ADBA /* SwiftBaru.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftBaru.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		BDF8B0DC24CA63540017ADBA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BDF8B0DE24CA63550017ADBA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		BDF8B0E024CA63550017ADBA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		BDF8B0E224CA63570017ADBA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BDF8B0E524CA63570017ADBA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		BDF8B0E824CA63570017ADBA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +52,7 @@
 		BDF8B0FA24CA63570017ADBA /* SwiftBaruUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftBaruUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BDF8B0FE24CA63570017ADBA /* SwiftBaruUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftBaruUITests.swift; sourceTree = "<group>"; };
 		BDF8B10024CA63570017ADBA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BDF8B10C24CA650F0017ADBA /* SwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,9 +80,28 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		BDBFEBE224CB274100B0C004 /* MapUi */ = {
+			isa = PBXGroup;
+			children = (
+				BDF8B10C24CA650F0017ADBA /* SwiftUIView.swift */,
+				BDBFEBE324CB305400B0C004 /* CircleImage.swift */,
+				BDBFEBE524CB32C100B0C004 /* MapView.swift */,
+			);
+			path = MapUi;
+			sourceTree = "<group>";
+		};
+		BDBFEBE724CBAB2900B0C004 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				BDBFEBE824CBAB5D00B0C004 /* Landmark.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
 		BDF8B0D024CA63540017ADBA = {
 			isa = PBXGroup;
 			children = (
+				BDBFEBE724CBAB2900B0C004 /* Models */,
 				BDF8B0DB24CA63540017ADBA /* SwiftBaru */,
 				BDF8B0F224CA63570017ADBA /* SwiftBaruTests */,
 				BDF8B0FD24CA63570017ADBA /* SwiftBaruUITests */,
@@ -99,9 +122,8 @@
 		BDF8B0DB24CA63540017ADBA /* SwiftBaru */ = {
 			isa = PBXGroup;
 			children = (
-				BDF8B0DC24CA63540017ADBA /* AppDelegate.swift */,
+				BDBFEBE224CB274100B0C004 /* MapUi */,
 				BDF8B0DE24CA63550017ADBA /* SceneDelegate.swift */,
-				BDF8B0E024CA63550017ADBA /* ContentView.swift */,
 				BDF8B0E224CA63570017ADBA /* Assets.xcassets */,
 				BDF8B0E724CA63570017ADBA /* LaunchScreen.storyboard */,
 				BDF8B0EA24CA63570017ADBA /* Info.plist */,
@@ -267,9 +289,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BDF8B0DD24CA63540017ADBA /* AppDelegate.swift in Sources */,
 				BDF8B0DF24CA63550017ADBA /* SceneDelegate.swift in Sources */,
-				BDF8B0E124CA63550017ADBA /* ContentView.swift in Sources */,
+				BDBFEBE624CB32C100B0C004 /* MapView.swift in Sources */,
+				BDF8B10D24CA650F0017ADBA /* SwiftUIView.swift in Sources */,
+				BDBFEBE424CB305400B0C004 /* CircleImage.swift in Sources */,
+				BDBFEBE924CBAB5D00B0C004 /* Landmark.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
