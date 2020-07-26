@@ -36,7 +36,7 @@ struct SwiftUIView: View {
                         .foregroundColor(Color.white)
                     }
                 }
-                    .padding(20)
+                    .padding(EdgeInsets(top: 0, leading: 0, bottom: 0, trailing: 0))
                 }
                 .cornerRadius(30)
                 .background(SwiftUI.Color.red)
